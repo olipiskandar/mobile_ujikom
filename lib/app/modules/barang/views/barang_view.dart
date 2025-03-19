@@ -1,7 +1,10 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
+// 📦 Package imports:
 import 'package:get/get.dart';
 
+// 🌎 Project imports:
 import '../controllers/barang_controller.dart';
 
 class BarangView extends GetView<BarangController> {

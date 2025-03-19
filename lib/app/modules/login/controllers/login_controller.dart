@@ -1,12 +1,16 @@
 // ignore_for_file: unnecessary_import
 
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
+
+// 🌎 Project imports:
 import 'package:ujikom/app/modules/dashboard/views/dashboard_view.dart';
 import 'package:ujikom/app/utils/api.dart';
-
 
 class LoginController extends GetxController {
   //TODO: Implement LoginController
@@ -42,15 +46,7 @@ class LoginController extends GetxController {
     }
   }
   
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

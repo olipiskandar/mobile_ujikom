@@ -1,8 +1,14 @@
+// 🐦 Flutter imports:
+import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:flutter/material.dart';
+
+// 🌎 Project imports:
 import 'package:ujikom/app/modules/dashboard/views/dashboard_view.dart';
 import 'package:ujikom/app/utils/api.dart';
+
 class RegisterController extends GetxController {
   final _getConnect = GetConnect();
   TextEditingController nameController = TextEditingController();
@@ -35,15 +41,7 @@ class RegisterController extends GetxController {
     }
   }
 
-  @override
-  void onInit() {
-    super.onInit();
-  }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

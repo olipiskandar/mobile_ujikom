@@ -1,8 +1,13 @@
+// 🎯 Dart imports:
 import 'dart:async';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:ujikom/app/modules/login/views/login_view.dart';
+
+// 🌎 Project imports:
 import 'package:ujikom/app/modules/dashboard/views/dashboard_view.dart';
+import 'package:ujikom/app/modules/login/views/login_view.dart';
 
 class HomeController extends GetxController {
   late Timer _pindah;
@@ -22,10 +27,6 @@ class HomeController extends GetxController {
     );
   }
 
-  @override
-  void onReady() {
-    super.onReady();
-  }
 
   @override
   void onClose() {

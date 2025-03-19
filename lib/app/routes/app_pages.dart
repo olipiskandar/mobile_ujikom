@@ -1,5 +1,7 @@
+// 📦 Package imports:
 import 'package:get/get.dart';
 
+// 🌎 Project imports:
 import '../modules/anggota/bindings/anggota_binding.dart';
 import '../modules/anggota/views/anggota_view.dart';
 import '../modules/barang/bindings/barang_binding.dart';

@@ -1,5 +1,9 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
+
 import 'package:ujikom/app/routes/app_pages.dart'; // Import ini penting!
 
 class IndexView extends GetView {

@@ -1,5 +1,10 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
+
+// 🌎 Project imports:
 import '../controllers/anggota_controller.dart';
 
 class AnggotaView extends GetView<AnggotaController> {

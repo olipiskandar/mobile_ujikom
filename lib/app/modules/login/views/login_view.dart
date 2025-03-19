@@ -1,9 +1,12 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:lottie/lottie.dart';
 
+// 🌎 Project imports:
 import '../controllers/login_controller.dart';
 
 class LoginView extends GetView<LoginController> {
@@ -75,7 +78,7 @@ class LoginView extends GetView<LoginController> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
           ],

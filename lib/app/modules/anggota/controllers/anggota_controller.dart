@@ -1,6 +1,11 @@
+// 🎯 Dart imports:
+import 'dart:convert';
+
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'dart:convert';
+
+// 🌎 Project imports:
 import '../../../data/anggota_response.dart';
 
 class AnggotaController extends GetxController {

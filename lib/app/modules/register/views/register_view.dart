@@ -1,9 +1,12 @@
+// 🐦 Flutter imports:
 import 'package:flutter/material.dart';
 
+// 📦 Package imports:
 import 'package:get/get.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:lottie/lottie.dart';
 
+// 🌎 Project imports:
 import '../controllers/register_controller.dart';
 
 class RegisterView extends GetView<RegisterController> {
