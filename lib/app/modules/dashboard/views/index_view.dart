@@ -58,7 +58,7 @@ class IndexView extends GetView {
         child: Card(
           elevation: 6,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-          color: color.withOpacity(0.9),
+          color: color.withValues(alpha: 0.9),
           child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

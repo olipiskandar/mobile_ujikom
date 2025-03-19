@@ -66,8 +66,7 @@ class LoginView extends GetView<LoginController> {
               ),
               child: TextButton(
                 onPressed: () {
-                  print('resr');
-                  // controller.loginNow();
+                  controller.loginNow();
                 },
                 child: const Text(
                   'Login',
